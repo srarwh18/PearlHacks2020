@@ -1,0 +1,54 @@
+* {
+    font-family: 'Raleway' !important;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    background: white;
+    font-family: 'Raleway';
+    color: #206cfa;
+}
+
+.head{
+    color: white;
+    font-family: 'Raleway';
+}
+
+
+.a:link {
+  color: #6495ed;
+  text-decoration: 'Raleway';
+}
+
+.a:visited {
+  color: rgb(49, 169, 216);
+}
+
+.a:hover {
+  text-decoration: underline;
+  color: rgb(49, 169, 216)
+}
+
+.a:active {
+  text-decoration: underline;
+}
+
+div a :button {
+    color: #6495ed;
+    font-family: 'Raleway';
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    padding: 16px 15px;
+    width: 150px;
+    border: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}

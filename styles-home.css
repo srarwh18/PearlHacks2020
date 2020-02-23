@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: ‘Raleway’;
+}
+
+/* Style body */
+.body {
+	background-color: #6495ed;
+}
+
+
+/* Style the header */
+/* header {
+  background-color:white;
+  padding: 10px;
+  text-align: left;
+  font-size: 35px;
+  
+} */
+
+.header img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    color: #6495ed !important;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: xx-large;
+  }
+
+/* Create two equal columns that float next to each other
+.twoColumn {
+  float: left;
+   /* Should be removed. Only for demonstration */
+
+
+.twoColumn {
+    float: left;
+    background-color: #6495ed;
+    width: 50%;
+    height: 400px;
+    padding: 80px;
+    background-clip: content-box;
+
+}
+
+/* .twoColumn div.title {
+    text-decoration-color: white;
+    font-family: 'Raleway';
+}
+
+.twoColumn div.description {
+    text-align: center;
+    text-decoration-color: white;
+    font-family: 'Raleway';
+} */
+
+h1 {
+    text-align: center;
+    text-decoration-color: white;
+    font-family: 'Raleway';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    color: white
+}
+p {
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.twoColumn div.button {
+    font-family: 'Raleway';
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #6495ed;
+    font-size: 16px;
+    padding: 16px 15px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.twoColumn div.button:hover {
+    background-color:  white;
+    color:rgb(49, 169, 216);
+    
+}
+
+.twoColumn a {
+    color:rgb(49, 169, 216)k;
+}
+
+.twoColumn a:hover {
+    color: rgb(49, 169, 216);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+/* .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other
+@media (max-width: 600px) {
+column {
+    width: 100%;
+  }
+} */
